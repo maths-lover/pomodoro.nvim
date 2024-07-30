@@ -42,6 +42,7 @@ end
 
 local function update_status()
 	-- Update internal status but do not display it automatically
+	save_timer()
 end
 
 local function play_beep()
